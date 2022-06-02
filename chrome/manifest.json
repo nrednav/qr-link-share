@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "QR Link Share",
+  "description": "Generates a QR code with a link to the current webpage.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "32": "icons/base-32.png"
+    }
+  },
+  "icons": {
+    "32": "icons/base-32.png"
+  }
+}
